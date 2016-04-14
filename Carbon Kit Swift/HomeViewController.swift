@@ -44,7 +44,7 @@ class HomeViewController: UIViewController, CarbonTabSwipeNavigationDelegate {
         carbonTabSwipeNavigation.carbonSegmentedControl!.setWidth(80, forSegmentAtIndex: 2)
         carbonTabSwipeNavigation.setNormalColor(UIColor.whiteColor())
         carbonTabSwipeNavigation.setSelectedColor(UIColor.cyanColor(), font: UIFont.boldSystemFontOfSize(14))
-        carbonTabSwipeNavigation.setCarbonBarTintColor(color);
+        carbonTabSwipeNavigation.setBarTintColor(color);
 
     }
     

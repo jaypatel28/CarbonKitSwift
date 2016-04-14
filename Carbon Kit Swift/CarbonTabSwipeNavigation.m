@@ -675,7 +675,7 @@ UIPageViewControllerDataSource, UIScrollViewDelegate, UIToolbarDelegate>
 	 forState:UIControlStateSelected];
 }
 
-- (void) setCarbonBarTintColor:(UIColor *)color {
+- (void) setBarTintColor:(UIColor *)color {
     self.carbonSegmentedControl.backgroundColor = color;
 }
 
