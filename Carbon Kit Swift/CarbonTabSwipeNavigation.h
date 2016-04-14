@@ -198,6 +198,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)setSelectedColor:(nonnull UIColor *)color font:(nonnull UIFont *)font;
 
+- (void)setCarbonBarTintColor: (nonnull UIColor *) color;
+
 /**
  *  Set an extra width for each segment
  *

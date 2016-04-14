@@ -675,6 +675,10 @@ UIPageViewControllerDataSource, UIScrollViewDelegate, UIToolbarDelegate>
 	 forState:UIControlStateSelected];
 }
 
+- (void) setCarbonBarTintColor:(UIColor *)color {
+    self.carbonSegmentedControl.backgroundColor = color;
+}
+
 - (void)setTabExtraWidth:(CGFloat)extraWidth {
 	self.carbonSegmentedControl.tabExtraWidth = extraWidth;
 }
